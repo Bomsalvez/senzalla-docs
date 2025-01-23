@@ -73,6 +73,11 @@ src/
 ```
 
 ---
+## Estrutura Visual
+
+![image.png](structure-angular.png)
+
+---
 
 ## Descrição das Pastas
 
