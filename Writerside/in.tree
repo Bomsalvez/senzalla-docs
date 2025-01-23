@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Instance Name"
+                 name="Senzalla-Docs"
                  start-page="struture-spring.md">
 
     <toc-element topic="struture-spring.md"/>
