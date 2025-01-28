@@ -50,7 +50,23 @@ project-name/
 │   │   │   └── data.sql                      # Dados iniciais do banco
 │   │   └── webapp/                           # Arquivos estáticos
 │   │       └── index.html
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── companyname/
+│                   └── projectname/
+│                       └── controller/
+                             └── [Feature]ControllerTest/
+                                        ├──  [Method]Test.java 
+                                        ├── [Method]SuccessTest.java
+                                        ├── [Method]FailureTest.java 
+                                        └── [Method]ExceptionTest.java
+
 ```
+---
+## Estrutura Visual
+
+![structure-spring.png](struture-spring.png)
 
 ---
 
@@ -115,6 +131,17 @@ project-name/
 - **Função**: Contém os arquivos estáticos, como HTML, CSS e JavaScript.
 - **Exemplo**:
     - **`index.html`**: Página principal da aplicação.
+
+### 9. `test/` – Testes
+
+- **Função**: Contém os testes unitários e de integração da aplicação.
+- Subdivisões:
+    - **`controller/`**: Testes para os controladores REST.
+        - **`[Feature]ControllerTest/`**: Pasta para os testes de um controlador específico.
+            - **`[Method]Test.java`**: Teste genérico para um método específico do controlador.
+            - **`[Method]SuccessTest.java`**: Teste de sucesso para um método específico do controlador.
+            - **`[Method]FailureTest.java`**: Teste de falha para um método específico do controlador.
+            - **`[Method]ExceptionTest.java`**: Teste de exceção para um método específico do controlador.
 
 ---
 

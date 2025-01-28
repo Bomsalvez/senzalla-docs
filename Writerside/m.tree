@@ -4,8 +4,9 @@
 
 <instance-profile id="m"
                  name="Senzalla-Docs"
-                 start-page="struture-spring.md">
+                 start-page="Estruturas-de-Pastas-e-Arquivos.md">
 
+    <toc-element topic="Estruturas-de-Pastas-e-Arquivos.md"/>
     <toc-element topic="struture-spring.md"/>
     <toc-element topic="struture-angular.md"/>
 </instance-profile>
